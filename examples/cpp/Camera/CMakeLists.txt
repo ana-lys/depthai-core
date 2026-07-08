@@ -33,3 +33,11 @@ dai_set_example_test_labels(camera_hdr ondevice rvc4 ci)
 
 dai_add_example(camera_isp camera_isp.cpp ON OFF)
 dai_set_example_test_labels(camera_isp ondevice rvc2_all ci)
+
+dai_add_example(stream_1080p stream_1080p.cpp OFF OFF)
+
+dai_add_example(stream_4k_h264 stream_4k_h264.cpp OFF OFF)
+
+dai_add_example(stream_4k_live stream_4k_live.cpp OFF OFF)
+
+dai_add_example(check_resolutions check_resolutions.cpp OFF OFF)
